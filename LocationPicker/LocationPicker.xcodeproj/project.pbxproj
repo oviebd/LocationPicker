@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F31E57DE2B07D7FD00CF8014 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31E57DD2B07D7FD00CF8014 /* Date+Ext.swift */; };
 		F3C173E72B3286CB00D5726F /* LocationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C173E62B3286CB00D5726F /* LocationUtility.swift */; };
 		F3C173EA2B32A38A00D5726F /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C173E92B32A38A00D5726F /* LocationSearchView.swift */; };
 		F3C173ED2B32A48F00D5726F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C173EC2B32A48F00D5726F /* SearchView.swift */; };
@@ -20,11 +19,9 @@
 		F3F9B8C42B07803600409C9D /* LocationPickerFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9B8C32B07803600409C9D /* LocationPickerFormView.swift */; };
 		F3F9B8C72B0780E800409C9D /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9B8C62B0780E800409C9D /* LocationData.swift */; };
 		F3F9B8CA2B07818300409C9D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9B8C92B07818300409C9D /* LocationManager.swift */; };
-		F3F9B8CD2B0782C700409C9D /* CLLocation+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9B8CC2B0782C700409C9D /* CLLocation+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F31E57DD2B07D7FD00CF8014 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		F3C173E62B3286CB00D5726F /* LocationUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUtility.swift; sourceTree = "<group>"; };
 		F3C173E82B328B9D00D5726F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F3C173E92B32A38A00D5726F /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
@@ -39,7 +36,6 @@
 		F3F9B8C32B07803600409C9D /* LocationPickerFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerFormView.swift; sourceTree = "<group>"; };
 		F3F9B8C62B0780E800409C9D /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
 		F3F9B8C92B07818300409C9D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		F3F9B8CC2B0782C700409C9D /* CLLocation+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				F3F9B8C82B07815F00409C9D /* Manager */,
-				F3F9B8CB2B07823A00409C9D /* Extention */,
 				F3C173E52B3286B100D5726F /* Helpers */,
 				F3C173EB2B32A47000D5726F /* Component */,
 				F3F9B8C52B0780B200409C9D /* Model */,
@@ -160,15 +155,6 @@
 				F3F9B8C92B07818300409C9D /* LocationManager.swift */,
 			);
 			path = Manager;
-			sourceTree = "<group>";
-		};
-		F3F9B8CB2B07823A00409C9D /* Extention */ = {
-			isa = PBXGroup;
-			children = (
-				F3F9B8CC2B0782C700409C9D /* CLLocation+Extention.swift */,
-				F31E57DD2B07D7FD00CF8014 /* Date+Ext.swift */,
-			);
-			path = Extention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,9 +234,7 @@
 				F3F9B8CA2B07818300409C9D /* LocationManager.swift in Sources */,
 				F3F9B8B52B077BFF00409C9D /* ContentView.swift in Sources */,
 				F3C173EF2B32AC6500D5726F /* LocationSearchViewModel.swift in Sources */,
-				F3F9B8CD2B0782C700409C9D /* CLLocation+Extention.swift in Sources */,
 				F3C173E72B3286CB00D5726F /* LocationUtility.swift in Sources */,
-				F31E57DE2B07D7FD00CF8014 /* Date+Ext.swift in Sources */,
 				F3C173EA2B32A38A00D5726F /* LocationSearchView.swift in Sources */,
 				F3F9B8B32B077BFF00409C9D /* LocationPickerApp.swift in Sources */,
 			);
