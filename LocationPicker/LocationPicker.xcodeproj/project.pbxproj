@@ -97,9 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				F3C173E82B328B9D00D5726F /* Info.plist */,
-				F3C173E52B3286B100D5726F /* Helpers */,
-				F3F9B8CB2B07823A00409C9D /* Extention */,
-				F3F9B8C82B07815F00409C9D /* Manager */,
 				F3F9B8C02B077FEE00409C9D /* Location Picker Form View */,
 				F3F9B8B22B077BFF00409C9D /* LocationPickerApp.swift */,
 				F3F9B8B42B077BFF00409C9D /* ContentView.swift */,
@@ -120,6 +117,9 @@
 		F3F9B8C02B077FEE00409C9D /* Location Picker Form View */ = {
 			isa = PBXGroup;
 			children = (
+				F3F9B8C82B07815F00409C9D /* Manager */,
+				F3F9B8CB2B07823A00409C9D /* Extention */,
+				F3C173E52B3286B100D5726F /* Helpers */,
 				F3C173EB2B32A47000D5726F /* Component */,
 				F3F9B8C52B0780B200409C9D /* Model */,
 				F3F9B8C22B07801D00409C9D /* View Model */,
@@ -390,6 +390,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -420,6 +421,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
