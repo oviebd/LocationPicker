@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var locationData : LocationData = LocationData()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            LocationPickerFormView(buttonHint: "Pick Location", pickedLocationData: $locationData)
         }
         .padding()
     }

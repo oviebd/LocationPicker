@@ -10,7 +10,7 @@ import CoreLocation
 
 
 struct LocationData {
-    var title : String = ""
-    var subTitle : String = ""
+    var city : String = ""
+    var country : String = ""
     var coordinate : CLLocationCoordinate2D?
 }
